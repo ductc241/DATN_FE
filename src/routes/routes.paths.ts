@@ -11,4 +11,5 @@ export const PATH_PRODUCTS_UPDATE = "/products/update/:id";
 export const PATH_SIGNIN = "/signin";
 export const PATH_SIGNUP = "/signup";
 
-export const PATH_EXPORT_ORDER = "/export_order";
+export const PATH_IMPORT_SHIPMENT = "/import_shipments";
+export const PATH_IMPORT_SHIPMENT_ADD = "/import_shipment_add";

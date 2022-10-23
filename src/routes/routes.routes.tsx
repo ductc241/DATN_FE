@@ -33,7 +33,12 @@ export const appRoutes: IRoute[] = [
   },
   {
     key: 5,
-    path: routerPaths.PATH_EXPORT_ORDER,
+    path: routerPaths.PATH_IMPORT_SHIPMENT,
+    component: <Transaction />
+  },
+  {
+    key: 6,
+    path: routerPaths.PATH_IMPORT_SHIPMENT_ADD,
     component: <Transaction />
   }
 ];

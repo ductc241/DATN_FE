@@ -99,13 +99,17 @@ const Header = () => {
                         Trả hàng
                       </li>
                       <li className="rounded-sm px-3 py-1 hover:text-sky-700">
-                        Nhập hàng
+                        <Link to="import_shipments" className="text-black">
+                          Nhập hàng
+                        </Link>
                       </li>
                       <li className="rounded-sm px-3 py-1 hover:text-sky-700">
                         Trả hàng nhập
                       </li>
-                      <li className="rounded-sm px-3 py-1 hover:text-sky-700">
-                        <Link to="export_order">Xuất huỷ</Link>
+                      <li className="rounded-sm px-3 py-1 hover:text-sky-700 text-black">
+                        <Link to="#" className="text-black">
+                          Xuất huỷ
+                        </Link>
                       </li>
                     </ul>
                   </div>
