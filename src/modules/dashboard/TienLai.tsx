@@ -13,7 +13,8 @@ const TienLai = () => {
           </div>
           {/* Snippet */}
           <div className="border mt-4 rounded-lg">
-            Sơ đồ thống kê Tiền 
+            Sơ đồ thống kê Tiền    
+            
 
           </div>
 
