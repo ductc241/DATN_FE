@@ -132,6 +132,29 @@
       "import_date": "11/17/2022",
       "products": [],
       "id": 7
+    },
+    {
+      "supplierId": 1,
+      "import_price_totail": 1000000,
+      "status": true,
+      "productId": 1,
+      "supplier_id": 1,
+      "import_date": "11/17/2022",
+      "products": [
+        {
+          "id": 4,
+          "name": "IPhone 14 pro Max",
+          "quantity": 5,
+          "import_price": 1500000
+        },
+        {
+          "id": 1,
+          "name": "Sam Sung",
+          "quantity": 10,
+          "import_price": 150000
+        }
+      ],
+      "id": 8
     }
   ],
   "suppliers": [
